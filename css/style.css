@@ -1,0 +1,513 @@
+footer a {
+  text-decoration: none; 
+  color: white; 
+}
+/*nav bar*/
+* {
+    box-sizing: border-box;
+  }
+  
+  .openBtn {
+    background: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .openBtn:active {
+    color: #0072ce;
+  }
+  
+  .overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 46%;
+    width: 80%;
+    text-align: center;
+    margin-top: 30px;
+    margin: auto;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    cursor: pointer;
+    color: white;
+  }
+  
+
+  .overlay input[type=text] {
+    padding: 15px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 80%;
+    background: white;
+  }
+  
+  .overlay button {
+    float: left;
+    width: 5%;
+    padding: 15px;
+    height: 56px;
+    background: #0072ce;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+.logo {
+    display: contents;
+}
+.logo img {
+    width: 3%;
+}
+
+.games {
+    margin: 0px 20%;
+}
+.games .col {
+    padding: 1px;
+    display: contents;
+}
+.dropdown img {
+    width: 100%;
+}
+.color-dot {
+    margin: 0 24%;
+
+}
+
+.color-dot ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+  }
+  
+  .color-dot li {
+    float: left;
+  }
+  
+  .color-dot li a {
+    text-decoration: none;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 16px;
+  }
+  .color-dot li a:hover {
+    color: #0072ce;
+  }
+
+
+
+.box1 {
+    display: inline-block;
+    margin: 0px;
+    background: #fff;
+    text-align: center;
+  }
+.box1 a{
+    margin-top: 12px;
+    text-decoration: none;
+    color: black;
+}
+  .box1:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  }
+.navbar .megamenu{ padding: 1rem; }
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+
+    .navbar .has-megamenu{position:static!important;}
+    .navbar .megamenu{left:0; right:0; width:100%; margin-top:0;  }
+  
+  }	
+  .bg-primary {
+      background-color: #fff;
+  }
+  .navbar-dark {
+        background-color: white;
+        z-index: 2;
+      --bs-navbar-color: black;
+      --bs-navbar-hover-color: #0072ce;
+  }
+  .dropdown-menu {
+      --bs-dropdown-border-radius: 0px;
+      --bs-dropdown-border-width: 0px;
+  }
+  /* ============ desktop view .end// ============ */
+ 
+  
+  body {
+    font-family:'Roboto', sans-serif;
+}
+* p {font-size: 19px;}
+.phai {
+    float: right;
+}
+.trai {
+    text-align: left;
+    width: 520px;
+    margin-left: -100px;
+    margin-bottom: 72px;
+}
+.black {
+    background-color: black;
+    display: block;
+    padding: 10px 10px;
+    text-align: right;
+}
+.black img , nav img{
+    width: 6%;
+    display: inline-block;
+    
+}
+.logo {
+    display: contents;
+}
+.logo img {
+    width: 4%;
+}
+.mau-xam {
+    color: rgb(174, 174, 174);
+}
+.mau-xam-nen {
+    background-color: #363636;
+}
+.mau-trang {
+    color: white;
+}
+.mau-den {
+    color: black;
+}
+.logo-banner-sm {
+    width: 50%;
+}
+.logo-banner-gta {
+    width: 40%;
+}
+.logo-banner-ter {
+    width: 60%;
+}
+.logo-banner-dis {
+    width: 40%;
+}
+.h1 {
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.button {
+    border-radius: 20px;
+    display: inline-block;
+    padding: 9px 20px;
+}
+.mau-cam-nen {
+    background-color: rgb(235, 84, 50);
+}
+.mau-xanh-nen {
+    background-color: rgb(69, 114, 210);
+}
+.mau-trang-nen {
+    background-color: white;
+}
+.button a {
+    text-decoration: none;
+}
+.sample {
+    width: 90%;
+}
+.height {
+    height: 670px;
+}
+
+.sample-dire {
+    padding-top: 240px;
+    padding-bottom: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.item-sm {
+    height: 721px;
+    padding-top: 200px;
+}
+.ts-month {
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+.banner-content {
+    width: 500px;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 60px;
+}
+.image-content img{
+    border-radius: 15px;
+    display: inline-block;
+    width: 90%;
+    margin-bottom: 20px;
+    transition: transform .2s;
+}
+.image-content :hover {
+    transform: scale(1.05);
+}
+.content-descripction {
+    margin-bottom: 40px;
+    padding: 0px 30px;
+    width: 90%;
+    text-align: center;
+    font-size: 25px;
+}
+
+.background-violet {
+    background-color: rgb(38, 40, 65);
+}
+.eldenring-banner {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 580px;
+    padding-left: 200px;
+    padding-top: 230px;
+}
+.eldenring-banner img {
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.background-black {
+    background-color: black;
+    margin-bottom: 50px;
+}
+.resize {
+    display: contents;
+}
+
+.carousel-control-prev {
+    left: 1230px;
+    width: 56px;
+}
+.carousel-control-next {
+    width: 56px;
+    margin-right: 170px;
+}
+.carousel-control-next, .carousel-control-prev {
+    top: -506px;
+    padding: 0px;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #e1e1e1;
+    width: 50px;
+    height: 50px;
+    border-radius: 24px;
+    padding: 10px 10px;
+}
+
+.new-game-release {
+    width: 172px;
+    height: 172px;
+    overflow: hidden;
+} 
+.new-game-release img{
+    overflow: hidden;
+    width: 200%;
+    border-radius: 10px;
+    transition: transform .2s;
+}
+.new-game-release :hover {
+    transform: scale(1.05);
+    border-radius: 10px;
+}
+.new-release-name {
+    width: 200px;
+    margin-top: 12px;
+}
+.new-game-release > a > img{
+    width: 100%;
+    height: 172px;
+}
+.canle {
+    margin: 0 100px;
+}
+.new-release {
+    height:260px ;
+    margin-left: 85px;
+}
+.giua {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.explore-content {
+    width: 530px;
+}
+.explore-desc  p{
+    width: 320px;
+    font-size: 20px;
+}
+.explore-pic {
+    height: 250px;
+}
+.explore-pic img{
+    width: 420px;
+}
+.col-4 {
+    padding: 0px 0px;
+}
+.explore-p {
+    height: 57px;
+    font-size: 20px;
+}
+.ts-plus {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    padding: 90px ;
+    margin-bottom: 40px;
+}
+.ts-plus img{
+    margin-bottom: 30px;
+}
+.explore {
+    margin-bottom: 40px;
+}
+.plus-img {
+    width: 90%;
+    text-align: center;
+}
+.banner-content-plus {
+    width: 90%;
+    display: inline-block;
+    margin-top: 70px;
+}
+.new-saving {
+    width: 100%;
+    transition: transform .2s;
+}
+.new-saving:hover{
+    transform: scale(1.01);
+}
+.new-saving-desc {
+    padding: 120px 30px;
+}
+.ps-store {
+    margin-bottom: 40px;
+}
+
+.Merch {
+ 
+    box-shadow: 0px 0px 1000px 1000px rgba(0, 0, 0, 0.473) inset     ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 820px;
+    margin-bottom: 40px;  
+    left: 40px;
+    padding: 60px 0px;
+}
+.img-merch-logo {
+    width: 13%;
+    margin-bottom: 30px;
+} 
+.img-merch-logo img {
+    width: 100%;
+}  
+.Merch-content {
+    width: 43%;
+}
+.merch-cus .mau-trang {
+    text-align: center;
+    padding: 0px 34px auto;
+    height: 80px;
+}
+.merch-cus img{
+    width: 90%;
+    margin-left: 18px;
+}
+.merch-cus .col-3{
+    padding: 20px 20px;
+    width: 314px;
+    background-color: rgba(0, 0, 0, 0.545);
+}
+.merch-text {
+    text-align: center;
+}
+
+/**/
+
+/**/
+.follow {
+    background-color: #1f1f1f0d;
+    padding: 50px 0px 60px ;
+}
+.follow-icon {
+    width: 85%;
+    transition: transform .2s;
+}
+.follow-canle {
+    padding: 0px 30%;
+}
+.new-canle {
+    margin: 0 200px;
+}
+.follow .giua {
+    margin-bottom: 60px;
+}
+.follow-icon:hover {
+    transform: scale(1.05);
+} 
+.footer {
+    background-color: rgb(15, 63, 166);
+}
+.footer-img-sony {
+    width: 20%;
+    display: block;
+}
+.footer-img-ent {
+    margin-top: 130px;
+    width: 30%;
+}
+.footer-img-sony {
+    margin: 0px 600px 10px 0px;
+}
+.upper a {
+    display: contents;
+    vertical-align: top;
+}
+.material-symbols-outlined {
+    display: contents;
+}
+.footer-cont{
+    padding-top: 60px;
+}
+.no-pad {
+    padding-left:0px ;
+    margin-bottom: 60px;
+}
+.esrb {
+    float: right;
+    width: 3%;
+    z-index: 2;
+    margin-top: -120px;
+    margin-right: 60px;
+}
